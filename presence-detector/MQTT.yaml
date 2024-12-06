@@ -1,0 +1,15 @@
+# **************************
+# presence-detector
+# **************************
+
+
+
+- sensor:
+  - name: "Office presence Distance"
+    unique_id: "office_precense_distance"
+    state_topic: "Office/presence/distance"
+    unit_of_measurement: "cm"
+ 
+  - name: "Office presence counter"
+    unique_id: "office_precense_Counter"
+    state_topic: "Office/presence/Counter"
